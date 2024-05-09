@@ -13,21 +13,18 @@ function HomePage() {
         <div className="wrapper">
           <h1 className="title">Find Real Estate & Get Your Dream Place</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-            explicabo suscipit cum eius, iure est nulla animi consequatur
-            facilis id pariatur fugit quos laudantium temporibus dolor ea
-            repellat provident impedit!
+          Discover your dream home with us at HomeHarbour. From bustling city condos to serene countryside retreats, we have the perfect property waiting for you. <br /> <br />Let our experienced team guide you to your ideal home sweet home. Start your journey today.
           </p>
           <SearchBar />
           <div className="boxes">
             <div className="box">
-              <h1>16+</h1>
-              <h2>Years of Experience</h2>
+              <h1>1000+</h1>
+              <h2>Deals</h2>
             </div>
-            <div className="box">
-              <h1>200</h1>
-              <h2>Award Gained</h2>
-            </div>
+          <div className="box">
+  <h1>1000+</h1>
+  <h2>Happy Clients Served</h2>
+</div>
             <div className="box">
               <h1>2000+</h1>
               <h2>Property Ready</h2>

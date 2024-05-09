@@ -1,0 +1,52 @@
+// agents.scss
+
+.main-container {
+  text-align: center;
+}
+
+.agents-container {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow-x: auto; // Enable horizontal scrolling if needed
+}
+
+.agent-card {
+  width: calc(33.33% - 40px); // Adjust as needed, minus margins
+  margin: 20px; // Adjust margins to fit within viewport
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.agent-image {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.agent-details {
+  padding: 10px 0;
+}
+
+.agent-name {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.agent-info {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
